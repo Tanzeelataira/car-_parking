@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>parking</title>
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center" id="border">
+
+            <h3 style="color:rgb(0, 0, 17);" class="mb-5">Sign in</h3>
+
+            <div class="form-outline mb-4">
+              <input type="email" placeholder="Email" id="typeEmailX-2" class="form-control form-control-lg" />
+
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="password" placeholder="password" id="typePasswordX-2" class="form-control form-control-lg" />
+
+            </div>
+
+
+            <div class="form-check d-flex justify-content-start mb-4">
+              <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+
+              <label class="form-check-label" for="form1Example3"> Remember password </label>
+            </div>
+
+            <a><button onclick="login()" class="btn btn-success btn-lg btn-block">Login</button></a>
+            <a><button onclick="register()" class="btn btn-success btn-lg btn-block">next</button></a>
+
+            <hr class="my-4">
+
+
+
+
+
+            <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+            <script src="login.js"> </script>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

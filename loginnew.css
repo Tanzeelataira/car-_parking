@@ -1,0 +1,21 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #23242a;
+}
+.box{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}

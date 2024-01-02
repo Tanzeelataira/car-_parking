@@ -1,0 +1,14 @@
+body{
+    background-image:url('car3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#name4{
+    background-color:rgba(226, 139, 212, 0.904);
+}
+#border{
+    background-color:rgba(226, 139, 212, 0.904);
+
+}
